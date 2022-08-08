@@ -5,6 +5,7 @@ export const items = [
             "productPrice": 2,
             "image": "https://neal.fun/spend/images/big-mac.jpg",
             "count": 0,
+            "unique": false,
         },
         {
             "id": "2",
@@ -12,6 +13,7 @@ export const items = [
             "productPrice": 3,
             "image": "https://neal.fun/spend/images/flip-flops.jpg",
             "count": 0,
+            "unique": false,
         },
         {
             "id": "3",
@@ -19,6 +21,7 @@ export const items = [
             "productPrice": 5,
             "image": "https://neal.fun/spend/images/coca-cola-pack.jpg",
             "count": 0,
+            "unique": false,
         },
         {
             "id": "4",
@@ -26,6 +29,7 @@ export const items = [
             "productPrice": 12,
             "image": "https://neal.fun/spend/images/movie-ticket.jpg",
             "count": 0,
+            "unique": false,
         },
         {
             "id": "5",
@@ -33,6 +37,7 @@ export const items = [
             "productPrice": 15,
             "image": "https://neal.fun/spend/images/book.jpg",
             "count": 0,
+            "unique": false,
         },
         {
             "id": "6",
@@ -40,6 +45,7 @@ export const items = [
             "productPrice": 45,
             "image": "https://neal.fun/spend/images/lobster-dinner.jpg",
             "count": 0,
+            "unique": false,
         },
         {
             "id": "7",
@@ -47,6 +53,7 @@ export const items = [
             "productPrice": 60,
             "image": "https://neal.fun/spend/images/video-game.jpg",
             "count": 0,
+            "unique": false,
         },
         {
             "id": "8",
@@ -54,6 +61,7 @@ export const items = [
             "productPrice": 99,
             "image": "https://neal.fun/spend/images/amazon-echo.jpg",
             "count": 0,
+            "unique": false,
         },
         {
             "id": "9",
@@ -61,6 +69,7 @@ export const items = [
             "productPrice": 100,
             "image": "https://neal.fun/spend/images/year-of-netflix.jpg",
             "count": 0,
+            "unique": false,
         },
         {
             "id": "10",
@@ -68,6 +77,7 @@ export const items = [
             "productPrice": 25,
             "image": "https://neal.fun/spend/images/air-jordans.jpg",
             "count": 0,
+            "unique": false,
         },
         {
             "id": "11",
@@ -75,6 +85,7 @@ export const items = [
             "productPrice": 99,
             "image": "https://neal.fun/spend/images/airpods.jpg",
             "count": 0,
+            "unique": false,
         },
         {
             "id": "12",
@@ -82,6 +93,7 @@ export const items = [
             "productPrice": 299,
             "image": "https://neal.fun/spend/images/gaming-console.jpg",
             "count": 0,
+            "unique": false,
         },
         {
             "id": "13",
@@ -89,6 +101,7 @@ export const items = [
             "productPrice": 350,
             "image": "https://neal.fun/spend/images/drone.jpg",
             "count": 0,
+            "unique": false,
         },
         {
             "id": "14",
@@ -96,6 +109,7 @@ export const items = [
             "productPrice": 699,
             "image": "https://neal.fun/spend/images/smartphone.jpg",
             "count": 0,
+            "unique": false,
         },
         {
             "id": "15",
@@ -103,6 +117,7 @@ export const items = [
             "productPrice": 800,
             "image": "https://neal.fun/spend/images/bike.jpg",
             "count": 0,
+            "unique": false,
         },
         {
             "id": "16",
@@ -110,6 +125,7 @@ export const items = [
             "productPrice": 1500,
             "image": "https://neal.fun/spend/images/kitten.jpg",
             "count": 0,
+            "unique": false,
         },
         {
             "id": "17",
@@ -117,6 +133,7 @@ export const items = [
             "productPrice": 1500,
             "image": "https://neal.fun/spend/images/puppy.jpg",
             "count": 0,
+            "unique": false,
         },
         {
             "id": "18",
@@ -124,6 +141,7 @@ export const items = [
             "productPrice": 2300,
             "image": "https://neal.fun/spend/images/auto-rickshaw.jpg",
             "count": 0,
+            "unique": false,
         },
         {
             "id": "19",
@@ -131,6 +149,7 @@ export const items = [
             "productPrice": 2500,
             "image": "https://neal.fun/spend/images/horse.jpg",
             "count": 0,
+            "unique": false,
         },
         {
             "id": "20",
@@ -138,6 +157,7 @@ export const items = [
             "productPrice": 3000,
             "image": "https://neal.fun/spend/images/acre-of-farmland.jpg",
             "count": 0,
+            "unique": false,
         },
         {
             "id": "21",
@@ -145,6 +165,7 @@ export const items = [
             "productPrice": 5500,
             "image": "https://neal.fun/spend/images/designer-handbag.jpg",
             "count": 0,
+            "unique": false,
         },
         {
             "id": "22",
@@ -152,6 +173,7 @@ export const items = [
             "productPrice": 6000,
             "image": "https://neal.fun/spend/images/video-game.jpg",
             "count": 0,
+            "unique": false,
         },
         {
             "id": "23",
@@ -159,6 +181,7 @@ export const items = [
             "productPrice": 7000,
             "image": "https://neal.fun/spend/images/luxury-wine.jpg",
             "count": 0,
+            "unique": false,
         },
         {
             "id": "24",
@@ -166,6 +189,7 @@ export const items = [
             "productPrice": 10000,
             "image": "https://neal.fun/spend/images/diamond-ring.jpg",
             "count": 0,
+            "unique": false,
         },
         {
             "id": "25",
@@ -173,6 +197,7 @@ export const items = [
             "productPrice": 12000,
             "image": "https://neal.fun/spend/images/jet-ski.jpg",
             "count": 0,
+            "unique": false,
         },
         {
             "id": "26",
@@ -180,6 +205,7 @@ export const items = [
             "productPrice": 15000,
             "image": "https://neal.fun/spend/images/rolex.jpg",
             "count": 0,
+            "unique": false,
         },
         {
             "id": "27",
@@ -187,6 +213,7 @@ export const items = [
             "productPrice": 30000,
             "image": "https://neal.fun/spend/images/ford-f-150.jpg",
             "count": 0,
+            "unique": false,
         },
         {
             "id": "28",
@@ -194,6 +221,7 @@ export const items = [
             "productPrice": 75000,
             "image": "https://neal.fun/spend/images/tesla.jpg",
             "count": 0,
+            "unique": false,
         },
         {
             "id": "29",
@@ -201,6 +229,7 @@ export const items = [
             "productPrice": 150000,
             "image": "https://neal.fun/spend/images/monster-truck.jpg",
             "count": 0,
+            "unique": false,
         },
         {
             "id": "30",
@@ -208,6 +237,7 @@ export const items = [
             "productPrice": 250000,
             "image": "https://neal.fun/spend/images/ferrari.jpg",
             "count": 0,
+            "unique": false,
         },
         {
             "id": "31",
@@ -215,6 +245,7 @@ export const items = [
             "productPrice": 300000,
             "image": "https://neal.fun/spend/images/single-family-home.jpg",
             "count": 0,
+            "unique": false,
         },
         {
             "id": "32",
@@ -222,6 +253,7 @@ export const items = [
             "productPrice": 700000,
             "image": "https://neal.fun/spend/images/gold-bar.jpg",
             "count": 0,
+            "unique": false,
         },
         {
             "id": "33",
@@ -229,6 +261,7 @@ export const items = [
             "productPrice": 1500000,
             "image": "https://neal.fun/spend/images/mcdonalds-franchise.jpg",
             "count": 0,
+            "unique": false,
         },
         {
             "id": "34",
@@ -236,6 +269,7 @@ export const items = [
             "productPrice": 250000,
             "image": "https://neal.fun/spend/images/superbowl-ad.jpg",
             "count": 0,
+            "unique": false,
         },
         {
             "id": "35",
@@ -243,6 +277,7 @@ export const items = [
             "productPrice": 7500000,
             "image": "https://neal.fun/spend/images/yacht.jpg",
             "count": 0,
+            "unique": false,
         },
         {
             "id": "36",
@@ -250,6 +285,7 @@ export const items = [
             "productPrice": 8000000,
             "image": "https://neal.fun/spend/images/m1-abrams.jpg",
             "count": 0,
+            "unique": false,
         },
         {
             "id": "37",
@@ -257,6 +293,7 @@ export const items = [
             "productPrice": 15000000,
             "image": "https://neal.fun/spend/images/formula-1-car.jpg",
             "count": 0,
+            "unique": false,
         },
         {
             "id": "38",
@@ -264,6 +301,7 @@ export const items = [
             "productPrice": 31000000,
             "image": "https://neal.fun/spend/images/apache-helicopter.jpg",
             "count": 0,
+            "unique": false,
         },
         {
             "id": "39",
@@ -271,6 +309,7 @@ export const items = [
             "productPrice": 45000000,
             "image": "https://neal.fun/spend/images/mansion.jpg",
             "count": 0,
+            "unique": false,
         },
         {
             "id": "40",
@@ -278,6 +317,7 @@ export const items = [
             "productPrice": 100000000,
             "image": "https://neal.fun/spend/images/make-a-movie.jpg",
             "count": 0,
+            "unique": false,
         },
         {
             "id": "41",
@@ -285,6 +325,7 @@ export const items = [
             "productPrice": 148000000,
             "image": "https://neal.fun/spend/images/boeing-747.jpg",
             "count": 0,
+            "unique": false,
         },
         {
             "id": "42",
@@ -292,6 +333,7 @@ export const items = [
             "productPrice": 780000000,
             "image": "https://neal.fun/spend/images/mona-lisa.jpg",
             "count": 0,
+            "unique": true,
         },
         {
             "id": "43",
@@ -299,6 +341,7 @@ export const items = [
             "productPrice": 850000000,
             "image": "https://neal.fun/spend/images/skyscraper.jpg",
             "count": 0,
+            "unique": false,
         },
         {
             "id": "44",
@@ -306,6 +349,7 @@ export const items = [
             "productPrice": 930000000,
             "image": "https://neal.fun/spend/images/cruise-ship.jpg",
             "count": 0,
+            "unique": false,
         },
         {
             "id": "45",
@@ -313,6 +357,6 @@ export const items = [
             "productPrice": 2120000000,
             "image": "https://neal.fun/spend/images/nba-team.jpg",
             "count": 0,
-          
+            "unique": false,
         }
     ]

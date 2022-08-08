@@ -18,7 +18,7 @@ body {
   max-width: 1001px;
   color: white;
   background-color: #2ecc71;
-  background: linear-gradient(180deg,#2ecc71,#1abc9c);
+  background: linear-gradient(180deg, #2ecc71, #1abc9c);
   margin-top: 11px;
   margin-bottom: 11px;
   height: 79px;
@@ -82,7 +82,7 @@ body {
   width: 95px;
   height: 37;
   border-radius: 3px;
-  background-color: #f1f2f6!important;
+  background-color: #f1f2f6 !important;
   border: none;
   padding: 7px;
 }
@@ -91,10 +91,10 @@ body {
   width: 95px;
   height: 37;
   border-radius: 3px;
-  background-color: #f1f2f6!important;
+  background-color: #f1f2f6 !important;
   border: none;
   padding: 7px;
-  background: linear-gradient(180deg,#2ecc71,#1abc9c);
+  background: linear-gradient(180deg, #2ecc71, #1abc9c);
 }
 
 .buy-sell-form {
@@ -103,6 +103,19 @@ body {
 
 .basket {
   max-width: 1001px;
+  background-color: white;
+  margin-top: 11px;
+  padding: 15px;
+}
+
+.basket div {
+  position: relative;
+  margin: auto;
+}
+
+.basket h3 {
+  position: relative;
+  margin: auto;
 }
 
 .footer {

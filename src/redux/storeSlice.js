@@ -34,6 +34,6 @@ export const storeSlice = createSlice({
 export const selectTotalMoney = state => state.store.totalMoney;
 export const selectBasket = state => state.store.basket;
 export const selectItems = state => state.store.items;
-
+export const selectItemsInBasket = state => state.store.items.filter(item => item.count > 0);
 export const { setItemCount, buyItem, sellItem } = storeSlice.actions;
 export default storeSlice.reducer;

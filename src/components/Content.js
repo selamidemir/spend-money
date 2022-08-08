@@ -7,10 +7,16 @@ import MoneyBox from './MoneyBox';
 function Content() {
     return (
         <Container className='p-0'>
+
+            <MoneyBox />
+
             <Row>
                 <Col>
-                    <MoneyBox />
                     <ItemList />
+                </Col>
+            </Row>
+            <Row>
+                <Col>
                     <Basket />
                 </Col>
             </Row>
