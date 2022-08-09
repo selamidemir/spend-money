@@ -21,7 +21,7 @@ function Item({ item }) {
     return (
         <div className='item'>
             <div className='item-image'>
-                <img src={item.image} alt={item.productName} />
+                <img src={`./images/${item.image}`} alt={item.productName} />
             </div>
             <div className='product-name'>{item.productName}</div>
             <div className='product-price'>{formatter.format(item.productPrice)}</div>
