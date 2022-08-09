@@ -26,9 +26,9 @@ function Item({ item }) {
             <div className='product-name'>{item.productName}</div>
             <div className='product-price'>{formatter.format(item.productPrice)}</div>
             <form className='buy-sell-form'>
-                { item.count > 0 ? <button className='btn-sell' onClick={(e) => handleSell(e)}>Sell</button> : <button className='btn-sell' disabled>Sell</button>}
+                {item.count > 0 ? <button className='btn-sell' onClick={(e) => handleSell(e)}>Sell</button> : <button className='btn-sell' disabled>Sell</button>}
                 <input className='input-quantity' type='number' value={item.count} disabled />
-                { (totalMoney > 0) && !(item.unique && item.count === 1) ? <button className='btn-buy' onClick={(e) => handleBuy(e)}>Buy</button> : <button className='btn-buy' disabled>Buy</button>}
+                {(totalMoney > 0) && !(item.unique && item.count === 1) ? <button className='btn-buy' onClick={(e) => handleBuy(e)}>Buy</button> : <button className='btn-buy' disabled>Buy</button>}
             </form>
         </div>
     )

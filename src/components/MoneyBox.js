@@ -14,11 +14,15 @@ function MoneyBox() {
     const cb = (newCounter) => setTotal(newCounter);
     const count = (startPoint, endPoint, duration, cb) => {
       const incremetSize = Math.abs(parseInt((endPoint - startPoint) / duration));
-      const timer =  setInterval(updateCounter);
+      if(incremetSize<300) {
+        setTotal(totalMoney);
+        return false;
+      }
+      const timer = setInterval(updateCounter);
       var counter = startPoint;
 
       function updateCounter() {
-        if(endPoint >= startPoint) counter < endPoint ? counter += incremetSize : finishCount();
+        if (endPoint >= startPoint) counter < endPoint ? counter += incremetSize : finishCount();
         else if (startPoint > endPoint) counter > endPoint ? counter -= incremetSize : finishCount();
         else finishCount();
         cb(counter);
@@ -29,13 +33,13 @@ function MoneyBox() {
         setTotal(totalMoney);
       }
     }
-    
+
     count(firstMoney, totalMoney, 255, cb);
 
   }, [firstMoney, totalMoney]);
-  
+
   useEffect(() => {
-    if(!start) setStart(total);
+    if (!start) setStart(total);
   }, [start, total]);
 
   return (

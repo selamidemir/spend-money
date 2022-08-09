@@ -10,7 +10,7 @@ function Basket() {
         <div className='basket'>
             {
                 (basket.totalItem > 0) &&
-                <div style={{width: '350px'}}>
+                <div style={{ width: '350px' }}>
                     <h3 className='text-center'>Your Receipt</h3>
                     <div className='fw-700 border-bottom'>
                         {
