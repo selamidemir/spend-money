@@ -177,7 +177,7 @@ export const items = [
         },
         {
             "id": "23",
-            "productName": "Luxury Wine",
+            "productName": "Organic Grape Juice",
             "productPrice": 7000,
             "image": "https://neal.fun/spend/images/luxury-wine.jpg",
             "count": 0,
